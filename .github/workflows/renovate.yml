@@ -1,0 +1,28 @@
+name: Renovate
+
+on:
+  pull_request:
+    paths:
+      - .github/renovate.json
+      - .github/workflows/renovate.yml
+
+jobs:
+  renovate-local:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+      - run: |
+          mv repo /tmp/repo
+          sudo chown -R runneradmin:root /tmp/repo
+      - uses: renovatebot/github-action@v40.1.12
+        with:
+          configurationFile: /tmp/repo/.github/renovate.json
+          token: ${{ secrets.RENOVATE_TOKEN }}
+          docker-volumes: |
+            /tmp/repo:/usr/src/app
+        env:
+          LOG_LEVEL: debug
+          RENOVATE_DRY_RUN: full
+          RENOVATE_PLATFORM: local

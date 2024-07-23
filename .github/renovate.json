@@ -1,0 +1,34 @@
+{
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^plug\\.gd$"],
+      "matchStrings": [
+        "\\s+plug\\(\\s*\"(?<depName>.*)\",\\s+{\\s*\"commit\":\\s*\"(?<currentDigest>.*)\",\\s*\"renovate-branch\":\\s*\"(?<currentValue>.*)\""
+      ],
+      "packageNameTemplate": "https://github.com/{{{depName}}}.git",
+      "versioningTemplate": "git",
+      "datasourceTemplate": "git-refs"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": ["^plug\\.gd$"],
+      "matchStrings": [
+        "\\s+plug\\(\"(?<depName>.*?)\",\\ \\{\\s*\"tag\":\\ \"(?<currentValue>.*)\""
+      ],
+      "packageNameTemplate": "https://github.com/{{{depName}}}.git",
+      "versioningTemplate": "git",
+      "datasourceTemplate": "git-tags"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": ["^.env$"],
+      "matchStrings": ["GODOT_VERSION=(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "godotengine/godot",
+      "packageNameTemplate": "https://github.com/godotengine/godot.git",
+      "versioningTemplate": "loose",
+      "extractVersionTemplate": "^(?<version>.*)$",
+      "datasourceTemplate": "git-tags"
+    }
+  ]
+}
