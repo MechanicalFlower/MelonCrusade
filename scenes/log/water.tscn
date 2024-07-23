@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://stovxul1ryhk"]
+
+[ext_resource type="AudioStream" uid="uid://bej54vtdr65c6" path="res://assets/sounds/sfx/river/running-water.mp3" id="1_ly57d"]
+
+[node name="Ambiant" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_ly57d")
+volume_db = 10.0
+autoplay = true
+max_distance = 30.0

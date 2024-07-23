@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://ujqrach2dsg3"]
+
+[ext_resource type="Script" path="res://scripts/log.gd" id="1_yg678"]
+[ext_resource type="PackedScene" uid="uid://bjqws1c25gxi7" path="res://assets/models/kenney_nature-kit/Models/FBX format/canoe.fbx" id="2_h4rmd"]
+[ext_resource type="PackedScene" uid="uid://stovxul1ryhk" path="res://scenes/log/water.tscn" id="3_kmnsf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hf6of"]
+size = Vector3(0.25, 0.25, 0.755)
+
+[node name="Canoe" type="RigidBody3D"]
+gravity_scale = 0.0
+custom_integrator = true
+script = ExtResource("1_yg678")
+
+[node name="Root Scene" parent="." instance=ExtResource("2_h4rmd")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0.0408602, 0)
+shape = SubResource("BoxShape3D_hf6of")
+
+[node name="Ambiant" parent="." instance=ExtResource("3_kmnsf")]

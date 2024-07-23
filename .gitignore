@@ -1,0 +1,28 @@
+# Godot-specific ignores
+.godot/*
+!.godot/imported/
+!.godot/global_script_class_cache.cfg
+.import/
+gfxrecon_capture_*
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+
+# gd-plug
+.plugged/
+addons/*
+!addons/gd-plug/
+!addons/export-build-info/
+!addons/gh-release-checker/
+
+# Python-specific ignores
+venv/
+
+# Export output
+dist/
+build/
+override.cfg

@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bpukpvoi8suej"
+path.s3tc="res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "611df30398ddade53b30132a6d84ae0a"
+}
+
+[deps]
+
+source_file="res://assets/models/kenney_car-kit/Models/FBX format/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png"
+dest_files=["res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

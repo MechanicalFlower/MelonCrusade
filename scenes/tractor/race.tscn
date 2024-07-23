@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://chuk1csqkfwl5"]
+
+[ext_resource type="Script" path="res://scripts/tractor.gd" id="1_tvfuv"]
+[ext_resource type="PackedScene" uid="uid://rmfhx401afqu" path="res://assets/models/kenney_car-kit/Models/FBX format/race.fbx" id="2_1cp7m"]
+[ext_resource type="PackedScene" uid="uid://dukxhsxnyfjeu" path="res://scenes/tractor/horn.tscn" id="3_6qvyb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qt663"]
+size = Vector3(1.37338, 0.775594, 2.65867)
+
+[node name="Race" type="RigidBody3D"]
+custom_integrator = true
+max_contacts_reported = 50
+contact_monitor = true
+script = ExtResource("1_tvfuv")
+
+[node name="RaceModel" parent="." instance=ExtResource("2_1cp7m")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.000332117, 0.757684, -0.011946)
+shape = SubResource("BoxShape3D_qt663")
+
+[node name="Horn" parent="." instance=ExtResource("3_6qvyb")]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

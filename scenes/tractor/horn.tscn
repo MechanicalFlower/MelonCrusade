@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dukxhsxnyfjeu"]
+
+[ext_resource type="AudioStream" uid="uid://bf30y1ow15kvv" path="res://assets/sounds/sfx/road/car-horn.wav" id="1_2h8bh"]
+
+[node name="Horn" type="AudioStreamPlayer3D"]
+process_mode = 3
+stream = ExtResource("1_2h8bh")

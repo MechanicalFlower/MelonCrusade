@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://mie8fcqjh13u"]
+
+[ext_resource type="Script" path="res://scripts/tractor.gd" id="1_o2x10"]
+[ext_resource type="PackedScene" uid="uid://dk0pf3p1laanl" path="res://assets/models/kenney_car-kit/Models/FBX format/ambulance.fbx" id="2_24smu"]
+[ext_resource type="PackedScene" uid="uid://dukxhsxnyfjeu" path="res://scenes/tractor/horn.tscn" id="3_0ok0d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qt663"]
+size = Vector3(1.515, 1.88973, 3.2932)
+
+[node name="Ambulance" type="RigidBody3D"]
+custom_integrator = true
+max_contacts_reported = 50
+contact_monitor = true
+script = ExtResource("1_o2x10")
+
+[node name="AmbulanceModel" parent="." instance=ExtResource("2_24smu")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.87182, -0.048157)
+shape = SubResource("BoxShape3D_qt663")
+
+[node name="Horn" parent="." instance=ExtResource("3_0ok0d")]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://belb31j0q0k6x"]
+
+[ext_resource type="Script" path="res://scripts/tractor.gd" id="1_p84bo"]
+[ext_resource type="PackedScene" uid="uid://dukxhsxnyfjeu" path="res://scenes/tractor/horn.tscn" id="3_gep5f"]
+[ext_resource type="PackedScene" uid="uid://dhb23yr1wb35h" path="res://assets/models/kenney_car-kit/Models/FBX format/firetruck.fbx" id="3_thu77"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qt663"]
+size = Vector3(1.515, 1.62736, 3.46676)
+
+[node name="Firetruck" type="RigidBody3D"]
+custom_integrator = true
+max_contacts_reported = 50
+contact_monitor = true
+script = ExtResource("1_p84bo")
+
+[node name="FiretruckModel" parent="." instance=ExtResource("3_thu77")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.60945, 0.0175078)
+shape = SubResource("BoxShape3D_qt663")
+
+[node name="Horn" parent="." instance=ExtResource("3_gep5f")]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdupkh0grwy27"]
+
+[ext_resource type="PackedScene" uid="uid://lqyku5wn2wo0" path="res://scenes/player/movement_controller.tscn" id="1_t1jcr"]
+[ext_resource type="PackedScene" uid="uid://b8drbos167vf8" path="res://scenes/player/head.tscn" id="2_41iu1"]
+[ext_resource type="Script" path="res://scripts/player/sprint.gd" id="3_bgqcu"]
+[ext_resource type="Script" path="res://scripts/player/footsteep.gd" id="10_jo4mt"]
+
+[node name="Player" groups=["player"] instance=ExtResource("1_t1jcr")]
+collision_mask = 7
+
+[node name="Head" parent="." index="1" instance=ExtResource("2_41iu1")]
+
+[node name="Foot" type="RayCast3D" parent="Head" index="1"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, -1, 0)
+target_position = Vector3(0, 0, -2)
+
+[node name="Sprint" type="Node" parent="." index="2"]
+script = ExtResource("3_bgqcu")
+
+[node name="FootstepComponent" type="Node" parent="." index="3"]
+script = ExtResource("10_jo4mt")
+feet_path = NodePath("../Head/Foot")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="FootstepComponent" index="0"]

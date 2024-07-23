@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cco4apdso8bfm"
+path.s3tc="res://.godot/imported/debris-drivetrain-71a1de7a82e5f0b3c8758871676b2754_colormap.png-2de8956732649c07a7c1b7e23f98075a.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "611df30398ddade53b30132a6d84ae0a"
+}
+
+[deps]
+
+source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-drivetrain-71a1de7a82e5f0b3c8758871676b2754_colormap.png"
+dest_files=["res://.godot/imported/debris-drivetrain-71a1de7a82e5f0b3c8758871676b2754_colormap.png-2de8956732649c07a7c1b7e23f98075a.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
