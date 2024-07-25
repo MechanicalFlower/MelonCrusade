@@ -141,6 +141,10 @@ fmt:
     just venv pip install pre-commit==3.*
     just venv pre-commit run -a
 
+# Generate the CREDTIS.md file
+credits:
+    just venv python ./generate_credits.py
+
 # === Godot ===
 #
 # Recipes for managing the Godot binary.

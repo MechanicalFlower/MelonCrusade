@@ -1,0 +1,89 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Frogger3D
+Upstream-Contact: Florian Vazelle <florian.vazelle@vivaldi.net>
+Source: https://github.com/MechanicalFlower/Frogger3D
+
+Files: *
+Copyright: 2024-present Florian Vazelle
+License: MIT
+
+# Addons
+
+Files: addons/debug_menu/*
+Copyright: 2023-present Hugo Locurcio and contributors
+License: MIT
+Source: https://github.com/godot-extended-libraries/godot-debug-menu
+
+Files: addons/gd-plug/*
+Copyright: 2021 Tan Jian Ping
+License: MIT
+Source: https://github.com/imjp94/gd-plug
+
+# Models
+
+Files: assets/models/*
+Copyright: 2022 Kenney
+License: CC0-1.0
+Source: https://www.kenney.nl/
+
+# Fonts
+
+Files: assets/fonts/ka1.ttf
+Copyright: 2005 Vic Fieger
+License: CC0-1.0
+Source: https://www.dafont.com/karmatic-arcade.font
+
+Files: assets/fonts/vcr_osd_mono.001.ttf
+Copyright: 2014 Riciery Leal
+License: CC0-1.0
+Source: https://www.dafont.com/vcr-osd-mono.font
+
+# Sounds
+
+Files: assets/sounds/sfx/river/running-water.mp3
+Copyright: 2022 JackClearyMusic
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/running-water-48518/
+
+Files: assets/sounds/sfx/river/water-splosh.mp3
+Copyright: 2022 benj500
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/running-water-48518/
+
+Files: assets/sounds/sfx/river/water-stream.mp3
+Copyright: 2022
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/water-stream-108384/
+
+Files: assets/sounds/sfx/road/car-ambiant.mp3
+Copyright: 2022 jackthemurray
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/inside-car-noise-while-driving-29978/
+
+Files: assets/sounds/sfx/road/car-horn.mp3
+Copyright: 2021 keweldog
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/car-horn-6408/
+Comment: Edited by Florian Vazelle, with audacity, to start directly on the horn sound
+
+Files: assets/sounds/sfx/collect.mp3
+Copyright: 2021 Wagna
+License: LicenseRef-Pixabay
+Source: https://pixabay.com/pt/sound-effects/collect-5930/
+
+# Shaders
+
+Files: shaders/sky.gdshader
+Copyright: 2023 axilirate
+License: CC0-1.0
+Source: https://godotshaders.com/shader/stylized-sky-shader-with-clouds/
+
+Files: shaders/checkbox.gdshader
+Copyright: 2021 Lordinator
+License: CC0-1.0
+Source: https://godotshaders.com/shader/world-coordinates-grid-bw-shader/
+
+Files: shaders/water.gdshader
+Copyright: 2014 ScriptedWave
+License: CC0-1.0
+Source: https://godotshaders.com/shader/stylized-water-shader-2/

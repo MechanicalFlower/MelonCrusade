@@ -5,12 +5,17 @@
 
 ![Godot Badge](https://img.shields.io/badge/godot-4.2-blue?logo=Godot-Engine&logoColor=white)
 ![license](https://img.shields.io/badge/license-MIT-green?logo=open-source-initiative&logoColor=white)
+![reuse](./.reuse/REUSE-compliant.svg)
 
-A [frogger](https://en.wikipedia.org/wiki/Frogger), made with [Godot Engine](https://godotengine.org/).
+A [frogger](https://en.wikipedia.org/wiki/Frogger)-like 3D platformer game, made with [Godot Engine](https://godotengine.org/).
 
 <a href="https://github.com/mechanicalflower/Frogger3D/releases/" target="_blank"><img src="public/publishing/store/github.webp" alt="Download on Github" height="40px" ></a>
 
 </div>
+
+## About
+
+Dodge traffic on a busy road, then cross a river by jumping on floating logs and climb a rock to reach the melon.
 
 ## Installation
 
@@ -21,9 +26,9 @@ on the Github repository, in the release section.
 
 Download the zip archive, accordingly to your OS, and unzip it.
 
-- **Windows**: Double click on `Marble.exe`.
-- **MacOS**: Double click on `Marble.app`.
-- **Linux**: In a terminal, run `./Marble.x86_64`.
+- **Windows**: Double click on `Frogger3D.exe`.
+- **MacOS**: Double click on `Frogger3D.app`.
+- **Linux**: In a terminal, run `./Frogger3D.x86_64`.
 
 ### From source
 
@@ -33,7 +38,7 @@ Download the zip archive, accordingly to your OS, and unzip it.
 
 Clone the source locally:
 ```
-git clone https://github.com/MechanicalFlower/Marble.git
+git clone https://github.com/MechanicalFlower/Frogger3D.git
 ```
 
 You need to install addons first:
@@ -75,3 +80,15 @@ just godot
 > In `just` recipes, the Godot Editor is installed
 > automatically. This ensure that you
 > use the right version of the engine.
+
+## Contributing
+
+![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
+
+We welcome community contributions to this project.
+
+Please read our [Contributor Guide](CONTRIBUTING.md) for more information on how to get started.
+
+## Releasing
+
+Please read our [Release Guide](RELEASING.md) for more information on how we manage our releases.

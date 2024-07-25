@@ -62,43 +62,6 @@ jobs:
           path: dist/*
           retention-days: 1
 
-  deploy:
-    runs-on: ubuntu-22.04
-    timeout-minutes: 30
-    needs: [check]
-
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - uses: actions/checkout@v4
-      - uses: extractions/setup-just@v2
-
-      - name: Load dotenv
-        run: just ci-load-dotenv
-
-      - name: Cache Godot
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.mkflower/bin
-            ~/.local/share/godot/export_templates
-          key: ${{ env.godot_version }}
-
-      - name: Export
-        run: just export-web
-
-      # Installing rsync is needed in order to deploy to GitHub Pages. Without it, the build will fail.
-      - name: Install rsync
-        run: |
-          sudo apt-get update && sudo apt-get install -y rsync
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
-          folder: build/web
-
   publish:
     runs-on: ubuntu-22.04
     timeout-minutes: 30

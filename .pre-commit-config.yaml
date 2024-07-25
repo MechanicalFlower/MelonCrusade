@@ -1,3 +1,9 @@
+ci:
+  autofix_prs: false
+  autoupdate_commit_msg: 'chore(deps): Bump pre-commit hooks'
+  autoupdate_schedule: weekly
+  skip: [format-shaders]
+
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.4.0
@@ -15,6 +21,10 @@ repos:
   - id: end-of-file-fixer       # Checks for ending with a newline
   - id: mixed-line-ending       # Consistent LF or CRLF
   - id: trailing-whitespace     # No trailing whitespace
+- repo: https://github.com/fsfe/reuse-tool
+  rev: v4.0.3
+  hooks:
+  - id: reuse
 - repo: https://github.com/codespell-project/codespell
   rev: v2.2.5
   hooks:
@@ -36,14 +46,18 @@ repos:
     exclude: |
       (?x)^(
           .godot/|
+          .reuse/|
           addons/gd-plug/|
           assets/models/|
+          CHANGELOG.md|
+          CONTRIBUTING.md|
           CREDITS.md|
           Justfile|
           LICENSE.md|
           LICENSES/|
           public/|
-          README.md
+          README.md|
+          RELEASING.md
       )
   - id: format-shaders
     name: format shaders

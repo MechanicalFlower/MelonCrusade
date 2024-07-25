@@ -25,8 +25,8 @@ DebugMenu="*res://addons/debug_menu/debug_menu.tscn"
 
 [custom_options]
 
-build_info/commit="10856c7df6fbb74c96a3e1a6ea8aca86904ad5d5"
-build_info/date="2024/07/22"
+build_info/commit="192721c15074d3d0bd149aafe7b07672aae09fb3"
+build_info/date="2024/07/25"
 
 [display]
 
