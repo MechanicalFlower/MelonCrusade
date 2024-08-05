@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🐸 Frogger3D
+# 🍈 MelonCrusade
 
 ![Godot Badge](https://img.shields.io/badge/godot-4.2-blue?logo=Godot-Engine&logoColor=white)
 ![license](https://img.shields.io/badge/license-MIT-green?logo=open-source-initiative&logoColor=white)
@@ -9,7 +9,7 @@
 
 A [frogger](https://en.wikipedia.org/wiki/Frogger)-like 3D platformer game, made with [Godot Engine](https://godotengine.org/).
 
-<a href="https://github.com/mechanicalflower/Frogger3D/releases/" target="_blank"><img src="public/publishing/store/github.webp" alt="Download on Github" height="40px" ></a>
+<a href="https://github.com/mechanicalflower/MelonCrusade/releases/" target="_blank"><img src="public/publishing/store/github.webp" alt="Download on Github" height="40px" ></a>
 
 </div>
 
@@ -26,9 +26,9 @@ on the Github repository, in the release section.
 
 Download the zip archive, accordingly to your OS, and unzip it.
 
-- **Windows**: Double click on `Frogger3D.exe`.
-- **MacOS**: Double click on `Frogger3D.app`.
-- **Linux**: In a terminal, run `./Frogger3D.x86_64`.
+- **Windows**: Double click on `MelonCrusade.exe`.
+- **MacOS**: Double click on `MelonCrusade.app`.
+- **Linux**: In a terminal, run `./MelonCrusade.x86_64`.
 
 ### From source
 
@@ -38,7 +38,7 @@ Download the zip archive, accordingly to your OS, and unzip it.
 
 Clone the source locally:
 ```
-git clone https://github.com/MechanicalFlower/Frogger3D.git
+git clone https://github.com/MechanicalFlower/MelonCrusade.git
 ```
 
 You need to install addons first:

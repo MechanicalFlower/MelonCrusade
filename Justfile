@@ -258,6 +258,6 @@ ci-load-dotenv:
 # Upload the game on Github and Itch.io
 ci-publish:
     gh release create "{{ game_version }}" --title="v{{ game_version }}" --generate-notes {{ dist_dir }}/*
-    # just butler push {{ dist_dir }}/{{ game_name }}-windows-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:windows --userversion {{ game_version }}
-    # just butler push {{ dist_dir }}/{{ game_name }}-mac-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:mac --userversion {{ game_version }}
-    # just butler push {{ dist_dir }}/{{ game_name }}-linux-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:linux --userversion {{ game_version }}
+    just butler push {{ dist_dir }}/{{ game_name }}-windows-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:windows --userversion {{ game_version }}
+    just butler push {{ dist_dir }}/{{ game_name }}-mac-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:mac --userversion {{ game_version }}
+    just butler push {{ dist_dir }}/{{ game_name }}-linux-v{{ game_version }}.zip mechanical-flower/{{ game_itchio_key }}:linux --userversion {{ game_version }}

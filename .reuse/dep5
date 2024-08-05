@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Frogger3D
+Upstream-Name: MelonCrusade
 Upstream-Contact: Florian Vazelle <florian.vazelle@vivaldi.net>
-Source: https://github.com/MechanicalFlower/Frogger3D
+Source: https://github.com/MechanicalFlower/MelonCrusade
 
 Files: *
 Copyright: 2024-present Florian Vazelle
