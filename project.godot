@@ -111,6 +111,7 @@ look_right={
 
 [rendering]
 
+textures/vram_compression/import_etc2_astc=true
 camera/depth_of_field/depth_of_field_bokeh_shape=0
 environment/ssao/quality=0
 global_illumination/sdfgi/frames_to_converge=0

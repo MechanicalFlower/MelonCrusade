@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://i8o0w3ogn487"
 path.s3tc="res://.godot/imported/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png-93509cbc9677f4928f717e49739bfad8.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png-93509cbc9677f4928f717e49739bfad8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png"
-dest_files=["res://.godot/imported/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png-93509cbc9677f4928f717e49739bfad8.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png-93509cbc9677f4928f717e49739bfad8.s3tc.ctex", "res://.godot/imported/debris-spoiler-a-59723e33d73e227ad8c755d6e262405b_colormap.png-93509cbc9677f4928f717e49739bfad8.etc2.ctex"]
 
 [params]
 

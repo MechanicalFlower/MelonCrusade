@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp8vndi84e1eh"
 path.s3tc="res://.godot/imported/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png-626688ca5a9f31bbc68719595e1a5a54.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png-626688ca5a9f31bbc68719595e1a5a54.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png"
-dest_files=["res://.godot/imported/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png-626688ca5a9f31bbc68719595e1a5a54.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png-626688ca5a9f31bbc68719595e1a5a54.s3tc.ctex", "res://.godot/imported/debris-drivetrain-7bb323a0a2644257cec0cde17393e0bc_colormap.png-626688ca5a9f31bbc68719595e1a5a54.etc2.ctex"]
 
 [params]
 

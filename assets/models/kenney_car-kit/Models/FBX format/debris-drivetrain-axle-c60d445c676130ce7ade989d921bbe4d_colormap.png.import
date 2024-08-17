@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1y4wtn1dcemn"
 path.s3tc="res://.godot/imported/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png-740fe61f516f5b41819a6c4169f82ba3.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png-740fe61f516f5b41819a6c4169f82ba3.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png"
-dest_files=["res://.godot/imported/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png-740fe61f516f5b41819a6c4169f82ba3.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png-740fe61f516f5b41819a6c4169f82ba3.s3tc.ctex", "res://.godot/imported/debris-drivetrain-axle-c60d445c676130ce7ade989d921bbe4d_colormap.png-740fe61f516f5b41819a6c4169f82ba3.etc2.ctex"]
 
 [params]
 

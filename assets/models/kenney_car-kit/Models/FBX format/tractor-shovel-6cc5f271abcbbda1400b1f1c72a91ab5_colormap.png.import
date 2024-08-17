@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddxm1upgbmg8y"
 path.s3tc="res://.godot/imported/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png-3f4448f6738f975c32536d2c8e5b2076.s3tc.ctex"
+path.etc2="res://.godot/imported/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png-3f4448f6738f975c32536d2c8e5b2076.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png"
-dest_files=["res://.godot/imported/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png-3f4448f6738f975c32536d2c8e5b2076.s3tc.ctex"]
+dest_files=["res://.godot/imported/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png-3f4448f6738f975c32536d2c8e5b2076.s3tc.ctex", "res://.godot/imported/tractor-shovel-6cc5f271abcbbda1400b1f1c72a91ab5_colormap.png-3f4448f6738f975c32536d2c8e5b2076.etc2.ctex"]
 
 [params]
 

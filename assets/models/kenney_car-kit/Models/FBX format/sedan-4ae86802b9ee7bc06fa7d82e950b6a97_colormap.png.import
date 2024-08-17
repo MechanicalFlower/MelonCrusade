@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://qfm0svw4thfb"
 path.s3tc="res://.godot/imported/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png-64d5aa15b90a7bfca507e7d8e600f50b.s3tc.ctex"
+path.etc2="res://.godot/imported/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png-64d5aa15b90a7bfca507e7d8e600f50b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png"
-dest_files=["res://.godot/imported/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png-64d5aa15b90a7bfca507e7d8e600f50b.s3tc.ctex"]
+dest_files=["res://.godot/imported/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png-64d5aa15b90a7bfca507e7d8e600f50b.s3tc.ctex", "res://.godot/imported/sedan-4ae86802b9ee7bc06fa7d82e950b6a97_colormap.png-64d5aa15b90a7bfca507e7d8e600f50b.etc2.ctex"]
 
 [params]
 

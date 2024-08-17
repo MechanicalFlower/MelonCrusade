@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://vml1vfb0sps8"
 path.s3tc="res://.godot/imported/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png-de4d125d9ee0af323ff8177422e8d44d.s3tc.ctex"
+path.etc2="res://.godot/imported/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png-de4d125d9ee0af323ff8177422e8d44d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png"
-dest_files=["res://.godot/imported/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png-de4d125d9ee0af323ff8177422e8d44d.s3tc.ctex"]
+dest_files=["res://.godot/imported/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png-de4d125d9ee0af323ff8177422e8d44d.s3tc.ctex", "res://.godot/imported/suv-luxury-6457e02393b4abad0d137f4af1446d7c_colormap.png-de4d125d9ee0af323ff8177422e8d44d.etc2.ctex"]
 
 [params]
 

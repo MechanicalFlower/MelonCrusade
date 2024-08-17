@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://6iqdb0ik38hl"
 path.s3tc="res://.godot/imported/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png-da1aec616e68c0009e6ce4c3e7bd0071.s3tc.ctex"
+path.etc2="res://.godot/imported/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png-da1aec616e68c0009e6ce4c3e7bd0071.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png"
-dest_files=["res://.godot/imported/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png-da1aec616e68c0009e6ce4c3e7bd0071.s3tc.ctex"]
+dest_files=["res://.godot/imported/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png-da1aec616e68c0009e6ce4c3e7bd0071.s3tc.ctex", "res://.godot/imported/ambulance-ab4f68c6d5b3e553563bb3258f5a993c_colormap.png-da1aec616e68c0009e6ce4c3e7bd0071.etc2.ctex"]
 
 [params]
 

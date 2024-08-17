@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bve75ncmwae72"
 path.s3tc="res://.godot/imported/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png-1183fc144e4efa1baa66a0f41eb7f5a7.s3tc.ctex"
+path.etc2="res://.godot/imported/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png-1183fc144e4efa1baa66a0f41eb7f5a7.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png"
-dest_files=["res://.godot/imported/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png-1183fc144e4efa1baa66a0f41eb7f5a7.s3tc.ctex"]
+dest_files=["res://.godot/imported/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png-1183fc144e4efa1baa66a0f41eb7f5a7.s3tc.ctex", "res://.godot/imported/race-future-d01be50c08c0992f14b6a109127cf2ac_colormap.png-1183fc144e4efa1baa66a0f41eb7f5a7.etc2.ctex"]
 
 [params]
 

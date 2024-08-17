@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://nx60rkjguan"
 path.s3tc="res://.godot/imported/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png-a075d1b758382f176f7fff14458d3771.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png-a075d1b758382f176f7fff14458d3771.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png"
-dest_files=["res://.godot/imported/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png-a075d1b758382f176f7fff14458d3771.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png-a075d1b758382f176f7fff14458d3771.s3tc.ctex", "res://.godot/imported/debris-nut-bf8794044a3af91988fbd2e425ef05cc_colormap.png-a075d1b758382f176f7fff14458d3771.etc2.ctex"]
 
 [params]
 

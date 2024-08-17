@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyowsyjajhve5"
 path.s3tc="res://.godot/imported/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png-80363efffb4165b3d52cbcb0695d5ecf.s3tc.ctex"
+path.etc2="res://.godot/imported/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png-80363efffb4165b3d52cbcb0695d5ecf.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png"
-dest_files=["res://.godot/imported/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png-80363efffb4165b3d52cbcb0695d5ecf.s3tc.ctex"]
+dest_files=["res://.godot/imported/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png-80363efffb4165b3d52cbcb0695d5ecf.s3tc.ctex", "res://.godot/imported/tractor-be18c6b852c9a70542ad42ac1a6d0631_colormap.png-80363efffb4165b3d52cbcb0695d5ecf.etc2.ctex"]
 
 [params]
 

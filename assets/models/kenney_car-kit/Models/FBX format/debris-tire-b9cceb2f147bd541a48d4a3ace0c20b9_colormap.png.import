@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdymhb1uf608c"
 path.s3tc="res://.godot/imported/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png-49c8e7ccf70aae378eac6ce25a4cdf50.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png-49c8e7ccf70aae378eac6ce25a4cdf50.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png"
-dest_files=["res://.godot/imported/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png-49c8e7ccf70aae378eac6ce25a4cdf50.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png-49c8e7ccf70aae378eac6ce25a4cdf50.s3tc.ctex", "res://.godot/imported/debris-tire-b9cceb2f147bd541a48d4a3ace0c20b9_colormap.png-49c8e7ccf70aae378eac6ce25a4cdf50.etc2.ctex"]
 
 [params]
 

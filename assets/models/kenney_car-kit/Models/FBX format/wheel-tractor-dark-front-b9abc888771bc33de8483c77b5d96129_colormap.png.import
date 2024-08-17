@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://2sugc87nvorf"
 path.s3tc="res://.godot/imported/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png-28c3cb88fca0b26d4b180f84ce11da5d.s3tc.ctex"
+path.etc2="res://.godot/imported/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png-28c3cb88fca0b26d4b180f84ce11da5d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png"
-dest_files=["res://.godot/imported/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png-28c3cb88fca0b26d4b180f84ce11da5d.s3tc.ctex"]
+dest_files=["res://.godot/imported/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png-28c3cb88fca0b26d4b180f84ce11da5d.s3tc.ctex", "res://.godot/imported/wheel-tractor-dark-front-b9abc888771bc33de8483c77b5d96129_colormap.png-28c3cb88fca0b26d4b180f84ce11da5d.etc2.ctex"]
 
 [params]
 

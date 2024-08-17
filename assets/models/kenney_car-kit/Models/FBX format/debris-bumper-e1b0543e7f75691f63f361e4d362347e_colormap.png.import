@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b546hlpac7tkc"
 path.s3tc="res://.godot/imported/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png-47b2ccd0c1f36f23de22533712af4992.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png-47b2ccd0c1f36f23de22533712af4992.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png"
-dest_files=["res://.godot/imported/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png-47b2ccd0c1f36f23de22533712af4992.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png-47b2ccd0c1f36f23de22533712af4992.s3tc.ctex", "res://.godot/imported/debris-bumper-e1b0543e7f75691f63f361e4d362347e_colormap.png-47b2ccd0c1f36f23de22533712af4992.etc2.ctex"]
 
 [params]
 
