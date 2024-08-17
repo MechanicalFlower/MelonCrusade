@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjn1q4cfilegy"
 path.s3tc="res://.godot/imported/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png-95b1d24ef53827c534a45e95afed8667.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png-95b1d24ef53827c534a45e95afed8667.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png"
-dest_files=["res://.godot/imported/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png-95b1d24ef53827c534a45e95afed8667.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png-95b1d24ef53827c534a45e95afed8667.s3tc.ctex", "res://.godot/imported/debris-plate-b-b7251ea5a3fdbf71f77e2548d2360b62_colormap.png-95b1d24ef53827c534a45e95afed8667.etc2.ctex"]
 
 [params]
 

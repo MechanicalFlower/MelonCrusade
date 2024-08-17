@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpm6xn1nupcln"
 path.s3tc="res://.godot/imported/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png-f099778d7db63a2c396b3740cad77508.s3tc.ctex"
+path.etc2="res://.godot/imported/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png-f099778d7db63a2c396b3740cad77508.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png"
-dest_files=["res://.godot/imported/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png-f099778d7db63a2c396b3740cad77508.s3tc.ctex"]
+dest_files=["res://.godot/imported/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png-f099778d7db63a2c396b3740cad77508.s3tc.ctex", "res://.godot/imported/garbage-truck-5c6e3ace96366a1650a184ae9bc4278c_colormap.png-f099778d7db63a2c396b3740cad77508.etc2.ctex"]
 
 [params]
 

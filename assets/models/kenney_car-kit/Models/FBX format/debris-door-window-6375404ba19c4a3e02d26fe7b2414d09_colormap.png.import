@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://drnsqd10xa28d"
 path.s3tc="res://.godot/imported/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png-704a66414a4f55a20b807ac73b3a1e1f.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png-704a66414a4f55a20b807ac73b3a1e1f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png"
-dest_files=["res://.godot/imported/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png-704a66414a4f55a20b807ac73b3a1e1f.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png-704a66414a4f55a20b807ac73b3a1e1f.s3tc.ctex", "res://.godot/imported/debris-door-window-6375404ba19c4a3e02d26fe7b2414d09_colormap.png-704a66414a4f55a20b807ac73b3a1e1f.etc2.ctex"]
 
 [params]
 

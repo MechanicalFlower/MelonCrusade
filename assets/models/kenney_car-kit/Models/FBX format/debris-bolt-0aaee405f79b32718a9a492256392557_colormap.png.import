@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bw0ms2glpqynn"
 path.s3tc="res://.godot/imported/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png-a1b53292a14e0d14a6520eb991cb10c8.s3tc.ctex"
+path.etc2="res://.godot/imported/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png-a1b53292a14e0d14a6520eb991cb10c8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png"
-dest_files=["res://.godot/imported/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png-a1b53292a14e0d14a6520eb991cb10c8.s3tc.ctex"]
+dest_files=["res://.godot/imported/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png-a1b53292a14e0d14a6520eb991cb10c8.s3tc.ctex", "res://.godot/imported/debris-bolt-0aaee405f79b32718a9a492256392557_colormap.png-a1b53292a14e0d14a6520eb991cb10c8.etc2.ctex"]
 
 [params]
 

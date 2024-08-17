@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm702qy2li20p"
 path.s3tc="res://.godot/imported/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png-b8b642eaffd28bf996c00befd3527fa2.s3tc.ctex"
+path.etc2="res://.godot/imported/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png-b8b642eaffd28bf996c00befd3527fa2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png"
-dest_files=["res://.godot/imported/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png-b8b642eaffd28bf996c00befd3527fa2.s3tc.ctex"]
+dest_files=["res://.godot/imported/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png-b8b642eaffd28bf996c00befd3527fa2.s3tc.ctex", "res://.godot/imported/box-db9fe304cb98696046fc1de5bfec19b6_colormap.png-b8b642eaffd28bf996c00befd3527fa2.etc2.ctex"]
 
 [params]
 

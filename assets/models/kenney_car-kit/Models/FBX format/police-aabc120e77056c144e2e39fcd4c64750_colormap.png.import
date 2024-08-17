@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3f6fuxfjala5"
 path.s3tc="res://.godot/imported/police-aabc120e77056c144e2e39fcd4c64750_colormap.png-960322e492137d908af3ce2f59292a44.s3tc.ctex"
+path.etc2="res://.godot/imported/police-aabc120e77056c144e2e39fcd4c64750_colormap.png-960322e492137d908af3ce2f59292a44.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/police-aabc120e77056c144e2e39fcd4c64750_colormap.png"
-dest_files=["res://.godot/imported/police-aabc120e77056c144e2e39fcd4c64750_colormap.png-960322e492137d908af3ce2f59292a44.s3tc.ctex"]
+dest_files=["res://.godot/imported/police-aabc120e77056c144e2e39fcd4c64750_colormap.png-960322e492137d908af3ce2f59292a44.s3tc.ctex", "res://.godot/imported/police-aabc120e77056c144e2e39fcd4c64750_colormap.png-960322e492137d908af3ce2f59292a44.etc2.ctex"]
 
 [params]
 

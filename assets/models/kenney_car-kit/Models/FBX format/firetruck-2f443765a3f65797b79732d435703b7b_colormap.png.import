@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ded1mqtkl2itg"
 path.s3tc="res://.godot/imported/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png-445d4224acc6edd7f9d8c76ba3d97068.s3tc.ctex"
+path.etc2="res://.godot/imported/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png-445d4224acc6edd7f9d8c76ba3d97068.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png"
-dest_files=["res://.godot/imported/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png-445d4224acc6edd7f9d8c76ba3d97068.s3tc.ctex"]
+dest_files=["res://.godot/imported/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png-445d4224acc6edd7f9d8c76ba3d97068.s3tc.ctex", "res://.godot/imported/firetruck-2f443765a3f65797b79732d435703b7b_colormap.png-445d4224acc6edd7f9d8c76ba3d97068.etc2.ctex"]
 
 [params]
 

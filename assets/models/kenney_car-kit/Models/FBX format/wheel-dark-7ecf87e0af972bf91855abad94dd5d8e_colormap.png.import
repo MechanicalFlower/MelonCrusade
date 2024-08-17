@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpukpvoi8suej"
 path.s3tc="res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.s3tc.ctex"
+path.etc2="res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png"
-dest_files=["res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.s3tc.ctex"]
+dest_files=["res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.s3tc.ctex", "res://.godot/imported/wheel-dark-7ecf87e0af972bf91855abad94dd5d8e_colormap.png-753bcb4e4ec3fdc840e238c7ea1ff4e0.etc2.ctex"]
 
 [params]
 

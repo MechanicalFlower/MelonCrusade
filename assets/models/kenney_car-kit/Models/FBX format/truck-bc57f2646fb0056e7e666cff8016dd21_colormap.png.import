@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://djqsn0gh8cjix"
 path.s3tc="res://.godot/imported/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png-489d911b2419d9a4910933cb17d4ae81.s3tc.ctex"
+path.etc2="res://.godot/imported/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png-489d911b2419d9a4910933cb17d4ae81.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png"
-dest_files=["res://.godot/imported/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png-489d911b2419d9a4910933cb17d4ae81.s3tc.ctex"]
+dest_files=["res://.godot/imported/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png-489d911b2419d9a4910933cb17d4ae81.s3tc.ctex", "res://.godot/imported/truck-bc57f2646fb0056e7e666cff8016dd21_colormap.png-489d911b2419d9a4910933cb17d4ae81.etc2.ctex"]
 
 [params]
 

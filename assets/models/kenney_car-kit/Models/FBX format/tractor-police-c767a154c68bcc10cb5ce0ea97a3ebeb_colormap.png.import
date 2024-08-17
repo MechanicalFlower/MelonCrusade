@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqg554rvi4g6d"
 path.s3tc="res://.godot/imported/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png-bba2f5893a624692b56cbaa2bbe3f3d1.s3tc.ctex"
+path.etc2="res://.godot/imported/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png-bba2f5893a624692b56cbaa2bbe3f3d1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png"
-dest_files=["res://.godot/imported/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png-bba2f5893a624692b56cbaa2bbe3f3d1.s3tc.ctex"]
+dest_files=["res://.godot/imported/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png-bba2f5893a624692b56cbaa2bbe3f3d1.s3tc.ctex", "res://.godot/imported/tractor-police-c767a154c68bcc10cb5ce0ea97a3ebeb_colormap.png-bba2f5893a624692b56cbaa2bbe3f3d1.etc2.ctex"]
 
 [params]
 

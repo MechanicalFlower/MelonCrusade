@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ch7wwh7qjxp81"
 path.s3tc="res://.godot/imported/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png-ef8a25e179291cdf11eb3fb95896b068.s3tc.ctex"
+path.etc2="res://.godot/imported/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png-ef8a25e179291cdf11eb3fb95896b068.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png"
-dest_files=["res://.godot/imported/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png-ef8a25e179291cdf11eb3fb95896b068.s3tc.ctex"]
+dest_files=["res://.godot/imported/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png-ef8a25e179291cdf11eb3fb95896b068.s3tc.ctex", "res://.godot/imported/hatchback-sports-468d865d8c570634f84736a3f29bc2ef_colormap.png-ef8a25e179291cdf11eb3fb95896b068.etc2.ctex"]
 
 [params]
 

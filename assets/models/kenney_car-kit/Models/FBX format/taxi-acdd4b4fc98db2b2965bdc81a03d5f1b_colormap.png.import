@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv3yq4i7ao3vm"
 path.s3tc="res://.godot/imported/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png-d6b3210a13e44174a34137259d30eedf.s3tc.ctex"
+path.etc2="res://.godot/imported/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png-d6b3210a13e44174a34137259d30eedf.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png"
-dest_files=["res://.godot/imported/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png-d6b3210a13e44174a34137259d30eedf.s3tc.ctex"]
+dest_files=["res://.godot/imported/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png-d6b3210a13e44174a34137259d30eedf.s3tc.ctex", "res://.godot/imported/taxi-acdd4b4fc98db2b2965bdc81a03d5f1b_colormap.png-d6b3210a13e44174a34137259d30eedf.etc2.ctex"]
 
 [params]
 

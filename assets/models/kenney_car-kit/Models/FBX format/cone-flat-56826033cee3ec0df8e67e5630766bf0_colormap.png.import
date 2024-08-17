@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp73iw6ah43vq"
 path.s3tc="res://.godot/imported/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png-f4df57c0e66445512089d92ddc5ad63e.s3tc.ctex"
+path.etc2="res://.godot/imported/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png-f4df57c0e66445512089d92ddc5ad63e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/kenney_car-kit/Models/FBX format/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png"
-dest_files=["res://.godot/imported/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png-f4df57c0e66445512089d92ddc5ad63e.s3tc.ctex"]
+dest_files=["res://.godot/imported/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png-f4df57c0e66445512089d92ddc5ad63e.s3tc.ctex", "res://.godot/imported/cone-flat-56826033cee3ec0df8e67e5630766bf0_colormap.png-f4df57c0e66445512089d92ddc5ad63e.etc2.ctex"]
 
 [params]
 
