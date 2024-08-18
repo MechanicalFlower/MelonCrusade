@@ -10,6 +10,7 @@
 A [frogger](https://en.wikipedia.org/wiki/Frogger)-like 3D platformer game, made with [Godot Engine](https://godotengine.org/).
 
 <a href="https://github.com/mechanicalflower/MelonCrusade/releases/" target="_blank"><img src="public/publishing/store/github.webp" alt="Download on Github" height="40px" ></a>
+<a href="https://mechanical-flower.itch.io/meloncrusade" target="_blank"><img src="public/publishing/store/itchio.webp" alt="Download on itch.io" height="40px" ></a>
 
 </div>
 
