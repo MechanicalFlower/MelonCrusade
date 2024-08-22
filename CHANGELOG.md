@@ -7,6 +7,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Deprecated
 ### Removed
 ### Fixed
+- Import `.fbx` files with ufbx ([#13](https://github.com/MechanicalFlower/MelonCrusade/pull/13))
 ### Security
 ### Dependencies
 
